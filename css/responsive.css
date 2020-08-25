@@ -1,0 +1,83 @@
+@media(max-width: 1199px){
+    .home-section .home-img{
+       text-align: center;
+    }
+    .home-section .home-img img{
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+}
+
+@media(max-width: 991px){
+    .header{
+        padding: 5px 0;
+    }
+    .header .navbar-nav{
+        background-color: #fff;
+    }
+    .header .navbar #collapsibleNavbar .nav-item .nav-link{
+        padding: 10px 15px 10px;
+    }
+    .header .navbar-light .navbar-toggler{
+        background-color: #fff;
+        padding: 0;
+        height: 38px;
+        width: 45px;
+        border: none;
+    }
+    .header .navbar-light .navbar-toggler:focus{
+        outline: none;
+    }
+    .header .navbar-light .navbar-toggler-icon{
+       background-image: none;
+       height: 2px;
+       width: 24px;
+       position: relative;
+    }
+    .header .navbar-light .navbar-toggler-icon::before{
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        left: 0;
+        top: -6px;
+     }
+     .header .navbar-light .navbar-toggler-icon::after{
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        left: 0;
+        top: 6px;
+     }
+     .home-section .home-img{
+        margin-bottom: 40px;
+     }
+     .home-section{
+         padding: 150px 0 150px
+     }
+}
+
+@media(max-width: 767px){
+    .home-section .home-content h1{
+        font-size: 40px;
+        line-height: 44px;
+     }
+     .home-section .bg-shapes div:nth-child(5){
+         top: 15%;
+     }
+}
+
+@media(max-width: 575px){
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .newsletter-section .newsletter-form .form-control{
+        padding-right: 100px;
+    }
+    .newsletter-section .newsletter-form .btn span{
+        display: none;
+    }
+}
