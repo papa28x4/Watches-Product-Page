@@ -1,3 +1,10 @@
+
+$(window).on('load', function(){
+  setTimeout(function(){
+    $(".preloader").fadeOut('slow');
+  }, 600)
+})
+
 $(document).ready(function(){
     
     $('body').scrollspy({target: ".navbar-nav", offset: 67})
@@ -64,3 +71,7 @@ function setActiveStyle(colorName){
   $('.alternate-style').attr('disabled', 'true');
   $(".alternate-style[title="+colorName+"]").removeAttr('disabled');
 }
+
+$(".toggle-style-switcher").click(function(){
+  $(".style-switcher").toggleClass("open")
+})

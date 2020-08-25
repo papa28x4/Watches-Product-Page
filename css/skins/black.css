@@ -29,9 +29,14 @@
     color:#222222;
 }
 
+
 .contact-section .contact-form .form-control:focus,
 .testimonial-section .client-info img{
     border-color: #222222;
+}
+
+.preloader .loader{
+    border-right: 5px solid #222222;
 }
 
 .testimonial-section .owl-carousel .owl-nav button.owl-next, 

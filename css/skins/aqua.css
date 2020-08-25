@@ -34,6 +34,10 @@
     border-color: #05b3b6;
 }
 
+.preloader .loader{
+    border-right: 5px solid #05b3b6;
+}
+
 .testimonial-section .owl-carousel .owl-nav button.owl-next, 
 .testimonial-section .owl-carousel .owl-nav button.owl-prev{
     background-color: #fff;
